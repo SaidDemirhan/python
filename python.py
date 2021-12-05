@@ -19,5 +19,19 @@ notlar={"Tukce":5,"Almanca":4,"Ingilizce":"muaf"}
 print(notlar)
 print(type(notlar))#<class 'dict'>
 
-print(len(soyisim))
+print(len(soyisim))# sayisim kac karakterse onu gösterir.
+
+#Accsess Yöntemleri
+
+print(soyisim[2]) #(n)bir stringin istenilen degerine ulasir
+
+print(soyisim[0:2]) #(ca) bir stringdeki istenilen indexteki karakterleri getirir.
+
+print(soyisim[1:]) #(an) belirtilen index ve sonrasini getirir.
+
+print(soyisim[:2]) #(ca) belirtilen indexin öncesini getirir.
+
+print(soyisim[-3:-1]) #(ca) geriden baslayarak da istenilen karakterler yazdirirlabilir.
+
+
 
