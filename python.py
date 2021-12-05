@@ -43,6 +43,11 @@ print(soyisim[-3:-1]) #(ca) geriden baslayarak da istenilen karakterler yazdiril
 
 print(soyisim[::2]) #(cn) bir karakter atlayarak bir string'i getirir.
 
+soyisim="ozgurluk"
+
+print(soyisim[1:6:2]) #(zul) 1. indexten 6. indexe kadar 1 yaz 1 atla
+
+
 
 
 
