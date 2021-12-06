@@ -47,6 +47,31 @@ soyisim="ozgurluk"
 
 print(soyisim[1:6:2]) #(zul) 1. indexten 6. indexe kadar 1 yaz 1 atla
 
+print(soyisim[:]) #string'in tamamini yazdirir.
+
+#Integer
+
+sayi1=3
+print(type(sayi1)) #<class 'int'>
+
+sayi2=3.5
+print(type(sayi2)) #<class 'float'>
+
+sayi3=1j
+print(type(sayi3)) #<class 'float'>
+
+x=input("ilk sayiyi giriniz: ") #5
+y=input("ikinci sayiyi giriniz: ") #8
+print("toplam: ",x+y) #toplam:  58
+print("toplam: ",int(x)+int(y)) #toplam:  13
+
+print(soyisim*5) #ozgurlukozgurlukozgurlukozgurlukozgurluk
+
+
+
+
+
+
 
 
 
